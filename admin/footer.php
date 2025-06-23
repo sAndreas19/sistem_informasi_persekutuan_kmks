@@ -2,7 +2,7 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-sm-6">
-              <p>GBI MEDAN&copy; 2025</p>
+              <p>KMKS MEDAN&copy; 2025</p>
             </div>
             <div class="col-sm-6 text-right">
               

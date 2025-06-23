@@ -1,7 +1,7 @@
 <?php 
 include'header.php'; 
 $id = base64_decode($_GET["id"]);
-$sqlku = mysqli_query($konek,"SELECT * FROM tbl_pesan WHERE id='$id'");
+$sqlku = mysqli_query($konek,"SELECT * FROM pesan WHERE id='$id'");
 $data  = mysqli_fetch_array($sqlku);
 ?>
       <section class="statistics">
@@ -39,7 +39,7 @@ $data  = mysqli_fetch_array($sqlku);
             <?php
                  if (isset($_POST["btnedit"])){
                 $txtction=$_POST['txtction'];
-                  $edit = mysqli_query($konek,"UPDATE  tbl_pesan SET keterangan='$txtction' WHERE id='$id'");
+                  $edit = mysqli_query($konek,"UPDATE  pesan SET keterangan='$txtction' WHERE id='$id'");
                   if ($edit){
                     if(!empty($edit)){
                     ?>

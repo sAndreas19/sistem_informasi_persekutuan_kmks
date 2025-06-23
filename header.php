@@ -4,7 +4,7 @@
 <head>
 	
 <meta charset="utf-8">
- <link href="icon.gif" rel="icon">
+ <link href="icon.png" rel="icon">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <!-- <meta name="description" content="CareMed demo project"> -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,8 +34,7 @@
 						<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
 							<div class="top_bar_item"><a href="contact.php">Alamat :</a></div>
 							<div class="top_bar_item"><a href="contact.php">Gang susuk 5, No.12</a></div>
-							<!-- <div class="top_bar_item"><a href="#">Jln. Pelita IV No.59/81, Sidorame Barat II, Medan</a></div> -->
-							<div class="emergencies  d-flex flex-row align-items-center justify-content-start ml-auto">IDKWTS</div>
+							<div class="emergencies  d-flex flex-row align-items-center justify-content-start ml-auto">Yesus Gembalaku</div>
 						</div>
 					</div>
 				</div>

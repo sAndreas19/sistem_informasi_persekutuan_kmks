@@ -73,7 +73,7 @@ pagination li.active {
 					$page = (isset($_GET['page']))? $_GET['page'] : 1;
 					$limit = 20; // Jumlah data per halamannya
 					$limit_start = ($page - 1) * $limit;
-					$sql = mysqli_query($konek, "SELECT * FROM tbl_pesan where keterangan ='1' LIMIT ".$limit_start.",".$limit);
+					$sql = mysqli_query($konek, "SELECT * FROM pesan where keterangan ='1' LIMIT ".$limit_start.",".$limit);
 					$no = $limit_start + 1;
 					while($data = mysqli_fetch_array($sql)){
 					?>
@@ -125,7 +125,7 @@ pagination li.active {
 
 				<?php
 				// Buat query untuk menghitung semua jumlah data
-				$sql2 = mysqli_query($konek, "SELECT COUNT(*) AS jumlah FROM tbl_file");
+				$sql2 = mysqli_query($konek, "SELECT COUNT(*) AS jumlah FROM jadwal");
 				$get_jumlah = mysqli_fetch_array($sql2);
 				
 				$jumlah_page = ceil($get_jumlah['jumlah'] / $limit); // Hitung jumlah halamannya

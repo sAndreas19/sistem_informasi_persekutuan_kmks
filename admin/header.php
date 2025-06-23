@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Panel Administrator GBI Pelita MEDAN </title>
+    <title>Panel Administrator KMKS MEDAN </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -82,7 +82,7 @@
           <div class="container-fluid">
             <div class="navbar-holder d-flex align-items-center justify-content-between">
               <div class="navbar-header"><a id="toggle-btn" href="#" class="menu-btn"><i class="icon-bars"> </i></a><a href="master.php" class="navbar-brand">
-                  <div class="brand-text d-none d-md-inline-block"><span></span><strong class="text-primary">GBI MEDAN</strong></div></a></div>
+                  <div class="brand-text d-none d-md-inline-block"><span></span><strong class="text-primary">KMKS MEDAN</strong></div></a></div>
               <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">
                 <!-- Notifications dropdown-->
 

@@ -7,7 +7,7 @@ $data  = mysqli_fetch_array($sqlku);
 
 ?>
 <head>
-<title>GBI - <?php echo $data['judul']; ?></title>
+<title>KMKS - <?php echo $data['judul']; ?></title>
 <link rel="stylesheet" type="text/css" href="styles/news.css">
 <link rel="stylesheet" type="text/css" href="styles/news_responsive.css">
 </head>

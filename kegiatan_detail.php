@@ -2,12 +2,12 @@
 
 error_reporting(0);
 $id = base64_decode($_GET["id"]);
-$sqlku = mysqli_query($konek,"SELECT * FROM tbl_file WHERE kategori='$id'");
+$sqlku = mysqli_query($konek,"SELECT * FROM jadwal WHERE kategori='$id'");
 $data  = mysqli_fetch_array($sqlku);
 
 ?>
 <head>
-<title>GBI - <?php echo $data['judul']; ?></title>
+<title>KMKS - <?php echo $data['judul']; ?></title>
 <link rel="stylesheet" type="text/css" href="styles/news.css">
 <link rel="stylesheet" type="text/css" href="styles/news_responsive.css">
 </head>
@@ -64,7 +64,7 @@ $data  = mysqli_fetch_array($sqlku);
 							</div>
 							<ul>
 								<?php
-						           $qry = mysqli_query($konek,"SELECT * FROM tbl_file where id order by kategori desc limit 100");
+						           $qry = mysqli_query($konek,"SELECT * FROM jadwal where id order by kategori desc limit 100");
 						           while ($data=mysqli_fetch_assoc($qry)) {
 						          ?>
 

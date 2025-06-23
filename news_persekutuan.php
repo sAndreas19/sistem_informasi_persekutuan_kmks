@@ -2,7 +2,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="styles/news.css">
 <link rel="stylesheet" type="text/css" href="styles/news_responsive.css">
-<title>LIST NEWS - GBI MEDAN</title>
+<title>KMKS - jadwal</title>
 </head>
 <div class="home">
 		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="img/gambar/profil.jpg" data-speed="0.8"></div>
@@ -11,7 +11,7 @@
 				<div class="row">
 					<div class="col">
 						<div class="home_content">
-							<div class="home_title"><span>NEWS</span> GBI MEDAN</div>
+							<div class="home_title"><span>NEWS</span> KMKS MEDAN</div>
 							<div class="breadcrumbs">
 								<ul>
 									<li><a href="index.php">Beranda</a></li>
@@ -85,7 +85,7 @@
 						<!-- Categories -->
 						<div class="sidebar_categories sidebar_section">
 							<div class="sidebar_section_title">
-								<div class="sidebar_title">LIST</div>
+								<div class="sidebar_title">Daftar Konten</div>
 							</div>
 							<ul>
 								<?php

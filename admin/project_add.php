@@ -76,7 +76,7 @@ include'header.php'; ?>
                                   $txtstatus=$_POST['txtstatus'];
                                   // $nama_file   = $_FILES['txtgambar']['name'];
                                   // $lokasi_file = $_FILES['txtgambar']['tmp_name'];
-                                $simpan = mysqli_query($konek,"INSERT INTO tbl_file (kategori,judul,konten,tgl_posting,user,status) VALUES ('$txtkategori','$txtjudul','$txtkonten','$txttanggal','$txtuser','$txtstatus')");
+                                $simpan = mysqli_query($konek,"INSERT INTO jadwal (kategori,judul,konten,tgl_posting,user,status) VALUES ('$txtkategori','$txtjudul','$txtkonten','$txttanggal','$txtuser','$txtstatus')");
                           // //       if(!empty($lokasi_file)){
                           // // move_uploaded_file($lokasi_file, "project/$nama_file");
                           // echo "Data Berhasil di simpan";

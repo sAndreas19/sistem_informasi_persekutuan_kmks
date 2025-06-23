@@ -40,7 +40,7 @@
 					<ul class="contact_about_list">
 						<li><div class="contact_about_icon"><img src="images/phone-call.svg" alt=""></div><span>+62852-7794-8885</span></li>
 						<li><div class="contact_about_icon"><img src="images/envelope.svg" alt=""></div><span>kmksmedan1998@gmail.com</span></li>
-						<li><div class="contact_about_icon"><img src="images/placeholder.svg" alt=""></div><span>Jln. Pelita IV No.59/81, Sidorame Barat II, Medan</span></li>
+						<li><div class="contact_about_icon"><img src="images/placeholder.svg" alt=""></div><span>No.12, Gang Susuk 5, Medan</span></li>
 					</ul>
 				</div>
 
@@ -81,7 +81,7 @@
             $txthandphone = mysqli_real_escape_string($konek, $_POST['txthandphone']);
             $txtpesan = mysqli_real_escape_string($konek, $_POST['txtpesan']);
             $tglreg = date("Y-m-d H:i:s");
-            $simpan1 = mysqli_query($konek,"INSERT INTO tbl_pesan (nama,hp,email,pesan,tanggal) VALUES ('$txtnama','$txthandphone','$txtemail','$txtpesan','$tglreg')");
+            $simpan1 = mysqli_query($konek,"INSERT INTO pesan (nama,hp,email,pesan,tanggal) VALUES ('$txtnama','$txthandphone','$txtemail','$txtpesan','$tglreg')");
             if ($simpan1){
               ?>
               <script type="text/javascript">
@@ -117,7 +117,7 @@
 										<!-- <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.8356631020224!2d98.67492329415798!3d3.6249936281043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM8KwMzcnMzAuMSJOIDk4wrA0MCcyOS44IkU!5e0!3m2!1sid!2sid!4v1537043333354" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
 
 
-										<iframe src="link gmaps" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.1254959017256!2d98.64823207349005!3d3.558555850502643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30312fe7b13fb193%3A0xddbbf02cf8bdb274!2sKMKS%20MEDAN!5e0!3m2!1sid!2sid!4v1750653914339!5m2!1sid!2sid" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 									</div>
 								</div>
 							</div>

@@ -6,11 +6,11 @@ if (isset($_POST['register'])) {
     $password = md5($_POST['password']);
 
     // Cek apakah user sudah ada
-    $cek = mysqli_query($konek, "SELECT * FROM tbl_user WHERE user_name='$username'");
+    $cek = mysqli_query($konek, "SELECT * FROM user WHERE user_name='$username'");
     if (mysqli_num_rows($cek) > 0) {
         echo "<script>alert('Username sudah terdaftar!');</script>";
     } else {
-        $simpan = mysqli_query($konek, "INSERT INTO tbl_user(user_name, password) VALUES('$username', '$password')");
+        $simpan = mysqli_query($konek, "INSERT INTO user(user_name, password) VALUES('$username', '$password')");
         if ($simpan) {
             echo "<script>alert('Registrasi berhasil!'); window.location='index.php';</script>";
         } else {

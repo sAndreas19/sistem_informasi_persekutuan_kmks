@@ -2,7 +2,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="styles/services.css">
 <link rel="stylesheet" type="text/css" href="styles/services_responsive.css">
-	<title>Daftar Video - GBI</title>
+	<title>Daftar Video - KMKS</title>
 </head>
 
 	<div class="home">

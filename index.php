@@ -13,7 +13,7 @@
 				
 				<!-- Slider Item -->
 				<div class="owl-item">
-					<div class="home_slider_background" style="background-image:url(img/slide/berdoa.jpg")></div>
+					<div class="home_slider_background" style="background-image:url(img/background/hero_background.jpg)"></div>
 					<div class="home_content">
 						<div class="container">
 							<div class="row">
@@ -35,7 +35,7 @@
 
 				<!-- Slider Item -->
 				<div class="owl-item">
-					<div class="home_slider_background" style="background-image:url(img/slide/gambarj.jpg")></div>
+					<div class="home_slider_background" style="background-image: url(img/slide/jam_doa_kmks.jpg)"></div>
 					<div class="home_content">
 						<div class="container">
 							<div class="row">
@@ -57,7 +57,7 @@
 
 				<!-- Slider Item -->
 				<div class="owl-item">
-					<div class="home_slider_background" style="background-image:url(img/slide/jemaat.jpg)"></div>
+					<div class="home_slider_background" style="background-image:url(img/slide/kebaktian_kmks.jpg)"></div>
 					<div class="home_content">
 						<div class="container">
 							<div class="row">
@@ -177,7 +177,7 @@
 
 				<!-- Service -->
 				 <?php
-            $qry = mysqli_query($konek,"SELECT * FROM tbl_file where id order by id limit 200");
+            $qry = mysqli_query($konek,"SELECT * FROM jadwal where id order by id limit 200");
             while ($data=mysqli_fetch_assoc($qry)) {
           ?>
 

@@ -22,7 +22,7 @@
         <div class="form-outer text-center d-flex align-items-center">
           <!-- <div class="col-lg-8"> -->
           <div class="form-inner">
-            <div class="logo text-uppercase"><span></span><strong class="text-primary"> GBI Pelita Medan </strong></div>
+            <div class="logo text-uppercase"><span></span><strong class="text-primary"> KMKS Medan </strong></div>
 
 
 

@@ -5,7 +5,7 @@ if(isset($_POST["btnlogin"])){
     $txtusername = $_POST['txtusername'];
     $txtpassword = md5($_POST['txtpassword']);
     
-    $cek = mysqli_query($konek, "SELECT * FROM tbl_user WHERE user_name='".$txtusername."' AND password='".$txtpassword."'");
+    $cek = mysqli_query($konek, "SELECT * FROM user WHERE user_name='".$txtusername."' AND password='".$txtpassword."'");
     $hasil = mysqli_fetch_array($cek);
     $count = mysqli_num_rows($cek);
 

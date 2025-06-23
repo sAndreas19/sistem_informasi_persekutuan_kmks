@@ -72,7 +72,7 @@
 				<div class="row">
 					<div class="col">
 						<div class="copyright_content d-flex flex-lg-row flex-column align-items-lg-center justify-content-start">
-							<div class="cr"> GBI PELITA MEDAN <i aria-hidden="true"></i> Dev <a href="https://layanancoding.com" target="_blank">LC: Misael Algospel </a>
+							<div class="cr"> KMKS MEDAN <i aria-hidden="true"></i> Dev <a href="https://layanancoding.com" target="_blank">by Hans </a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 							<div class="footer_social ml-lg-auto">
 								<ul>

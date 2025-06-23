@@ -16,7 +16,7 @@ img:hover { transform: scale(1.5); }
 				<div class="row">
 					<div class="col">
 						<div class="home_content">
-							<div class="home_title"><span>GBI</span> GALERI</div>
+							<div class="home_title"><span>KMKS</span> GALERI</div>
 							<div class="breadcrumbs">
 								<ul>
 									<li><a href="index.php">Beranda</a></li>
