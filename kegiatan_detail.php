@@ -44,6 +44,19 @@ $data  = mysqli_fetch_array($sqlku);
 							<p> <?php echo $data['konten']; ?></p>
 						</div>
 					</div>
+					 <!-- Tombol Share Manual -->
+					<div class="share-buttons" style="margin-top:10px;">
+						<!-- Share ke WhatsApp -->
+						<a href="https://wa.me/?text=<?php echo urlencode($data['judul'] . ' - ' . strip_tags($data['konten'])); ?>" target="_blank">
+							<button style="background-color:#25D366;color:white;border:none;padding:5px 10px;border-radius:5px;margin-right:5px;">Share ke WhatsApp</button>
+						</a>
+
+						<!-- Share ke Facebook -->
+						<a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo urlencode('https://namasitusmu.com/link-ke-detail-jadwal.php?id=' . $data['id']); ?>" target="_blank">
+							<button style="background-color:#4267B2;color:white;border:none;padding:5px 10px;border-radius:5px;margin-right:5px;">Share ke Facebook</button>
+						</a>
+
+					</div>
 				</div>
 				<!-- Sidebar -->
 				<div class="col-lg-4">

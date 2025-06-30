@@ -60,6 +60,7 @@ pagination li.active {
 					<tr>
 						<th>NO</th>
 						<th>NAMA GAMBAR</th>
+						<th>DESKRIPSI GAMBAR</th>
 						<th>ALAMAT GAMBAR</th>
 						<th colspan="2">ACTION</th>
 					</tr>
@@ -83,6 +84,7 @@ pagination li.active {
 						<tr>
 							<td> <?php echo $no; ?></td>
 							<td> <?php echo $data['nama']; ?></td>
+							<td> <?php echo $data['deskripsi']; ?></td>
 							<td> <?php echo $data['alamat']; ?></td>
 							<td> <a href="folio_edit.php?id=<?php echo base64_encode($data['id']); ?>">EDIT</a></td>
 							<td> <a href="folio_hapus.php?id=<?php echo $data['id']; ?> ">DELETE</a></td>

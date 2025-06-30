@@ -15,7 +15,7 @@
 				<div class="owl-item">
 					<div class="home_slider_background" style="background-image:url(img/background/hero_background.jpg)"></div>
 					<div class="home_content">
-						<div class="container">
+						<div class="container"> <a href="" target="_blank"></a>
 							<div class="row">
 								<div class="col">
 									<div class="home_content_inner">
@@ -190,7 +190,7 @@
 								<div class="service_title trans_200"><?php echo $data['judul']; ?></div>
 
 							</div>
-							<div class="button dept_button"><a href="kegiatan_detail.php?id=<?php echo base64_encode($data['kategori']); ?>">READ MORE</a></div>
+							<div class="button dept_button"><a href="kegiatan_detail.php?id=<?php echo base64_encode($data['kategori']); ?>">Selengkapnya</a></div>
 						</div>
 
 					
@@ -213,7 +213,7 @@
 						<h2>Datang dan Hadirilah</h2>
 						<p>Ibadah Kebaktian Minggu ini dengan tema:</p>
 						<p>Don't Quit</p>
-						<div class="button cta_button"><a href="#">MINGGU : 19:00 WIB</a></div>
+						<div class="button cta_button"><a href="kegiatan.php">Selengkapnya</a></div>
 					</div>
 				</div>
 			</div>

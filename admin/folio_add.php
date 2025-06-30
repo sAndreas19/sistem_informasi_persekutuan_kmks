@@ -23,6 +23,12 @@ include'header.php'; ?>
                         <input type="text" name="txtnama" class="form-control is-valid" placeholder="Nama Gambar">
                       </div>
                 </div>
+                <div class="form-group row has-success">
+                      <label class="col-sm-2 form-control-label">Deskripsi *</label>
+                      <div class="col-sm-10">
+                        <textarea type="tex" name="txtdeskripsi" class="form-control is-valid" placeholder="Deskripsi Gambar" rows="5"></textarea>
+                      </div>
+                </div>
                   <div class="form-group row has-success">
                       <label class="col-sm-2 form-control-label">Link Gambar</label>
                       <div class="col-sm-10">
@@ -47,10 +53,11 @@ include'header.php'; ?>
 
                               if (isset($_POST["btnsimpan"])){
                                   $txtnama=$_POST['txtnama'];
+                                  $txtdeskripsi=$_POST['txtdeskripsi'];
                                   $txtalamat=$_POST['txtalamat'];
                                   $nama_file   = strtolower($_FILES['txtgambar']['name']);
                                   $lokasi_file = $_FILES['txtgambar']['tmp_name'];
-                                $simpan = mysqli_query($konek,"INSERT INTO kegiatan (nama,alamat,gambar) VALUES ('$txtnama','$txtalamat','$nama_file')");
+                                $simpan = mysqli_query($konek,"INSERT INTO kegiatan (nama,deskripsi,alamat,gambar) VALUES ('$txtnama','$txtdeskripsi','$txtalamat','$nama_file')");
                                 if(!empty($lokasi_file)){
                           move_uploaded_file($lokasi_file, "../img/folio/$nama_file");
                           echo "Data Berhasil di simpan";

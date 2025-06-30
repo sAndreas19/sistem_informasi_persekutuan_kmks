@@ -51,8 +51,8 @@
 								<ul>
 									<li><a href="index.php">Beranda</a></li>
 									<li><a href="tentang.php">Tentang</a></li>
-									<li><a href="galeri.php">Kegiatan</a></li>
-									<li><a href="video.php">Masih dikembangkan</a></li>
+									<li><a href="kegiatan.php">Kegiatan</a></li>
+									<li><a href="renungan.php">Renungan</a></li>
 									<li><a href="news_persekutuan.php">Jadwal</a></li>
 									<li><a href="contact.php">Kontak</a></li>
 								</ul>
@@ -105,9 +105,9 @@
 									<hr class="my-2">
 									<p class="menu_item menu_mm fa fa-bars"><a href="tentang.php"> Tentang</a></p>
 									<hr class="my-2">
-									<p class="menu_item menu_mm fa fa-photo"><a href="galeri.php" > Kegiatan</a></p>
+									<p class="menu_item menu_mm fa fa-photo"><a href="kegiatan.php" > Kegiatan</a></p>
 									<hr class="my-2">
-									<p class="menu_item menu_mm fa fa-play"><a href="video.php"> Masih dikembangkan</a></p>
+									<p class="menu_item menu_mm fa fa-play"><a href="renungan.php"> Renungan</a></p>
 										<hr class="my-2">
 									<p class="menu_item menu_mm fa fa-book"><a href="news_persekutuan.php"> Jadwal</a></p>
 										<hr class="my-1">

@@ -949,7 +949,8 @@ section
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	background: #f9fafb;
+	background: #9bc8ff;
+	border-radius: 24px 4px;
 }
 .dept_button a
 {
@@ -1331,7 +1332,7 @@ section
 }
 
 .image-container {
-  flex: 1 1 40%;
+  flex: 1 1 45%;
   max-width: 40%;
 }
 

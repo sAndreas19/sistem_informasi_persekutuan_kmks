@@ -48,9 +48,9 @@
         <div class="main-menu">
           <h5 class="sidenav-heading">Panel</h5>
           <ul id="side-main-menu" class="side-menu list-unstyled">                  
-            <li><a href="master.php"> <i class="icon-home"></i>HOME                           </a></li>
             <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>Master</a>
               <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
+                <li><a href="master.php"> <i class="icon-home"></i>HOME</a></li>
                 <li><a href="blog_add.php">Posting News </a></li>
                 <li><a href="blog_tampil.php">Daftar News</a></li>
                 <li><a href="project_add.php">Tambah Kegiatan</a></li>
@@ -59,8 +59,8 @@
                 <li><a href="folio_add.php">Input Galeri</a></li>
                 <li><a href="folio_tampil.php">Daftar Galeri</a></li>
 
-                <li><a href="video_add.php">Input Video</a></li>
-                <li><a href="video_tampil.php">Daftar Video</a></li>
+                <li><a href="renungan_add.php">Input Renungan</a></li>
+                <li><a href="renungan_tampil.php">Daftar Renungan</a></li>
 
 
               </ul>

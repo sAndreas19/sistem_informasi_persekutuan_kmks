@@ -51,7 +51,6 @@ $data  = mysqli_fetch_array($sqlku);
 						</div>
 
 					
-
 					</div>
 				</div>
 

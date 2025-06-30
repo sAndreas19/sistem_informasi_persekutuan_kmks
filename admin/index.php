@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/fontastic.css">
     <link rel="stylesheet" href="css/grasp_mobile_progress_circle-1.0.0.min.css">
     <link rel="stylesheet" href="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
-    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="css/style.sea.css" id="theme-stylesheet">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="shortcut icon" href="img/logo.jpg">
   </head>
@@ -20,13 +20,24 @@
     <div class="page login-page">
       <div class="container">
         <div class="form-outer text-center d-flex align-items-center">
-          <!-- <div class="col-lg-8"> -->
           <div class="form-inner">
             <div class="logo text-uppercase"><span></span><strong class="text-primary"> KMKS Medan </strong></div>
 
+            <!-- Error Message -->
+            <?php if(isset($_GET['error']) && $_GET['error'] == '1'): ?>
+              <div class="alert alert-danger" role="alert" style="margin-bottom: 20px;">
+                <i class="fa fa-exclamation-triangle"></i> <strong>Login Gagal!</strong> Username atau password salah.
+              </div>
+            <?php endif; ?>
 
+            <!-- Success Message (jika ada) -->
+            <?php if(isset($_GET['success']) && $_GET['success'] == '1'): ?>
+              <div class="alert alert-success" role="alert" style="margin-bottom: 20px;">
+                <i class="fa fa-check-circle"></i> <strong>Berhasil!</strong> Akun telah dibuat, silakan login.
+              </div>
+            <?php endif; ?>
 
-            <form  action="login.php" method="POST">
+            <form action="login.php" method="POST">
               <div class="form-group-material">
                 <input id="login-username" type="text" name="txtusername" required data-msg="Please enter your username" class="input-material">
                 <label for="login-username" class="label-material">Username</label>
@@ -38,10 +49,10 @@
                <button type="submit" name="btnlogin" class="btn btn-primary">LOGIN</button>
                <p class="mt-3 text-center">Belum punya akun? <a href="register.php">Daftar di sini</a></p>
                <h5> <a href="../index.php">Kembali</a></h5>
-              </div>
             </form>
-          <div class="copyrights text-center">
           </div>
+        </div>
+        <div class="copyrights text-center">
         </div>
       </div>
     </div>

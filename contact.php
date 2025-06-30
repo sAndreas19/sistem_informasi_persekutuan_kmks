@@ -5,7 +5,7 @@
 <title>KMKS - kontak</title>
 </head>
 	<div class="home">
-		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="img/slide/_jemaat.jpg" data-speed="0.8"></div>
+		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="img/slide/kebersamaan5.png" data-speed="0.8"></div>
 		<div class="home_container">
 			<div class="container">
 				<div class="row">
@@ -49,7 +49,7 @@
 					  <section id="contact" class="wow fadeInUp">
       <div class="container">
         <div class="form">
-          <div id="sendmessage">KONSULTASI / PESAN</div>
+          <div id="sendmessage">KONSULTASI / PESAN / TOPIK DOA</div>
           <div id="errormessage"></div>
               <form method="POST" action="">
     
@@ -132,21 +132,6 @@
 									<li class="d-flex flex-row align-items-center justify-content-start" style="margin: 1px;">
 										<div>Minggu</div>
 										<div class="ml-auto">09:00 s/d Selesai</div>
-									</li>
-									<li class="d-flex flex-row align-items-center justify-content-start" style="margin: 1px;">
-										<div class="ml-auto">11:00 s/d Selesai</div>
-									</li>
-									<li class="d-flex flex-row align-items-center justify-content-start" style="margin: 1px;">
-										<div class="ml-auto">14:00 s/d Selesai</div>
-									</li>
-									<li class="d-flex flex-row align-items-center justify-content-start" style="margin: 1px;">
-										<div class="ml-auto">16:00 s/d Selesai</div>
-									</li>
-									<li class="d-flex flex-row align-items-center justify-content-start" style="margin: 1px;">
-										<div class="ml-auto">18:00 s/d Selesai</div>
-									</li>
-									<li class="d-flex flex-row align-items-center justify-content-start" style="margin: 1px;">
-										<div class="ml-auto">20:00 s/d Selesai</div>
 									</li>
 								</ul>
 							</div>

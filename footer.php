@@ -31,16 +31,16 @@
 					<!-- Footer - Links -->
 					<div class="col-lg-4 footer_col">
 						<div class="footer_links footer_column">
-							<div class="footer_title">Daftar Kegatiatan</div>
+							<div class="footer_title">Daftar Kegiatan</div>
 							<ul>
-								<li><a href="#">Ibadah Raya</a></li>
-								<li><a href="#">Latiahan Music</a></li>
-								<li><a href="#">Doa Syafaat</a></li>
-								<li><a href="#">Ibadah Doa Rumah Tangga</a></li>
-								<li><a href="#">Menara Doa</a></li>
-								<li><a href="#">Doa Semalaman</a></li>
-								<li><a href="#">Ibadah Mujizat</a></li>
-								<li><a href="#">Ibadah Muda Mudi</a></li>
+								<li><a href="#">Jam Doa</a></li>
+								<li><a href="#">Ibadah Kebaktian</a></li>
+								<li><a href="#">Penginjilan</a></li>
+								<li><a href="#">Kelompok Kecil</a></li>
+								<li><a href="#">Ibadah Perayaan Paskah</a></li>
+								<li><a href="#">Keakraban</a></li>
+								<li><a href="#">Retreat</a></li>
+								<li><a href="#">Perayaan HUT KMKS</a></li>
 							</ul>
 						</div>
 					</div>
@@ -48,8 +48,8 @@
 					<!-- Footer - News -->
 					<div class="col-lg-4 footer_col">
 						<div class="footer_news footer_column">
-							<div class="footer_title">Link Terbaru</div>
-							<!-- <ul> -->
+							<div class="footer_title">Jadwal Terbaru</div>
+							<ul>
 									  <?php
 								            $qry = mysqli_query($konek,"SELECT * FROM tbl_blog where id order by tgl_posting desc limit 5");
 								            while ($data=mysqli_fetch_assoc($qry)) {
@@ -61,7 +61,7 @@
 								</li>
 
 							<?php } ?>
-							<!-- </ul> -->
+							</ul>
 						</div>
 					</div>
 				</div>
