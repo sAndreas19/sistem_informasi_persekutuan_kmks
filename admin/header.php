@@ -53,11 +53,11 @@
                 <li><a href="master.php"> <i class="icon-home"></i>HOME</a></li>
                 <li><a href="blog_add.php">Posting News </a></li>
                 <li><a href="blog_tampil.php">Daftar News</a></li>
-                <li><a href="project_add.php">Tambah Kegiatan</a></li>
-                <li><a href="project_tampil.php">Daftar Kegiatan</a></li>
+                <li><a href="project_add.php">Tambah Jadwal</a></li>
+                <li><a href="project_tampil.php">Daftar Jadwal</a></li>
 
-                <li><a href="folio_add.php">Input Galeri</a></li>
-                <li><a href="folio_tampil.php">Daftar Galeri</a></li>
+                <li><a href="folio_add.php">Tambah Kegiatan</a></li>
+                <li><a href="folio_tampil.php">Daftar Kegiatan</a></li>
 
                 <li><a href="renungan_add.php">Input Renungan</a></li>
                 <li><a href="renungan_tampil.php">Daftar Renungan</a></li>

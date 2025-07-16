@@ -45,7 +45,7 @@
 				          ?>
 				<div class="col-lg-12 col-md-12 service_col">
 					<div class="service_title trans_200"><u><?php echo $data['nama']; ?></u></div>
-							<p> <?php echo $data['alamat']; ?> </p>
+							<p> <?php echo $data['renungan']; ?> </p>
 							<!-- <iframe width="100%" height="290" src="https://www.youtube.com/embed/<?php echo $data['alamat']; ?>" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
 
 

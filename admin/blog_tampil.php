@@ -78,7 +78,7 @@ pagination li.active {
 					$limit_start = ($page - 1) * $limit;
 					
 					// Buat query untuk menampilkan data siswa sesuai limit yang ditentukan
-					$sql = mysqli_query($konek, "SELECT * FROM tbl_blog LIMIT ".$limit_start.",".$limit);
+					$sql = mysqli_query($konek, "SELECT * FROM pengumuman LIMIT ".$limit_start.",".$limit);
 					
 					$no = $limit_start + 1; // Untuk penomoran tabel
 					while($data = mysqli_fetch_array($sql)){ // Ambil semua data dari hasil eksekusi $sql
@@ -132,7 +132,7 @@ pagination li.active {
 
 				<?php
 				// Buat query untuk menghitung semua jumlah data
-				$sql2 = mysqli_query($konek, "SELECT COUNT(*) AS jumlah FROM tbl_blog");
+				$sql2 = mysqli_query($konek, "SELECT COUNT(*) AS jumlah FROM pengumuman");
 				$get_jumlah = mysqli_fetch_array($sql2);
 				
 				$jumlah_page = ceil($get_jumlah['jumlah'] / $limit); // Hitung jumlah halamannya

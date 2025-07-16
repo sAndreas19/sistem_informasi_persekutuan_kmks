@@ -1,7 +1,7 @@
 <?php 
 include'header.php'; 
 $id = base64_decode($_GET["id"]);
-$sqlku = mysqli_query($konek,"SELECT * FROM tbl_blog WHERE id='$id'");
+$sqlku = mysqli_query($konek,"SELECT * FROM pengumuman WHERE id='$id'");
 $data  = mysqli_fetch_array($sqlku);
 ?>
       <section class="statistics">
@@ -81,7 +81,7 @@ $data  = mysqli_fetch_array($sqlku);
 
                                   $nama_file   = $_FILES['txtgambar']['name'];
                                   $lokasi_file = $_FILES['txtgambar']['tmp_name'];
-                  $edit = mysqli_query($konek,"UPDATE  tbl_blog SET kategori='$txtkategori',judul='$txtjudul',konten='$txtkonten',tgl_posting='$txttanggal',user='$txtuser',status='$txtstatus',gambar='$nama_file' WHERE id='$id'");
+                  $edit = mysqli_query($konek,"UPDATE  pengumuman SET kategori='$txtkategori',judul='$txtjudul',konten='$txtkonten',tgl_posting='$txttanggal',user='$txtuser',status='$txtstatus',gambar='$nama_file' WHERE id='$id'");
                   if ($edit){
                     if(!empty($lokasi_file)){
                     move_uploaded_file($lokasi_file, "../img/blog/$nama_file");

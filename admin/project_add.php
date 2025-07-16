@@ -9,7 +9,7 @@ include'header.php'; ?>
       </section>
           <ul class="breadcrumb">
             <li class="breadcrumb-item"><a href="master.php">Home</a></li>
-            <li class="breadcrumb-item active">Master <li class="breadcrumb-item active"> Tambah Kegiatan</li> </li>
+            <li class="breadcrumb-item active">Master <li class="breadcrumb-item active">Tambah Jadwal</li> </li>
           </ul>
 
        <section class="statistics">
@@ -24,19 +24,19 @@ include'header.php'; ?>
                       </div>
                 </div>
                   <div class="form-group row has-success">
-                      <label class="col-sm-2 form-control-label">NAMA KEGIATAN</label>
+                      <label class="col-sm-2 form-control-label">NAMA JADWAL</label>
                       <div class="col-sm-10">
                         <input type="text" name="txtjudul" class="form-control is-valid" placeholder="JUDUL NEWS / ARTIKEL">
                       </div>
                 </div>
                   <div class="form-group row has-success">
-                      <label class="col-sm-2 form-control-label">DESKRIPSI KEGIATAN</label>
+                      <label class="col-sm-2 form-control-label">DESKRIPSI JADWAL</label>
                       <div class="col-sm-10">
                         <textarea class="ckeditor" id="ckedtor" name="txtkonten"></textarea>
                       </div>
                   </div>
                   <div class="form-group row has-success">
-                      <label class="col-sm-2 form-control-label"> TANGGAL KEGIATAN</label>
+                      <label class="col-sm-2 form-control-label"> TANGGAL JADWAL</label>
                       <div class="col-sm-10">
                         <input type="date" name="txttanggal" class="form-control is-valid">
                       </div>

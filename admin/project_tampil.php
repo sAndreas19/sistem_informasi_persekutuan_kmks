@@ -51,7 +51,7 @@ pagination li.active {
 </head>
 
 	<div class="card-body">
-			<h3> DAFTAR KEGIATAN </h3>
+			<h3> DAFTAR JADWAL </h3>
                   <div class="table-responsive">
 
                     <table class="table">
@@ -59,7 +59,7 @@ pagination li.active {
 
 					<tr>
 						<th>NO</th>
-						<th>DESKRIP KEGIATAN</th>
+						<th>DESKRIPSI JADWAL</th>
 						<th>TANGGAL</th>
 						<th>HARI</th>
 						<th>NAMA PENGGUNA</th>

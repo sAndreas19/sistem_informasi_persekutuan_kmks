@@ -81,7 +81,7 @@ include'header.php'; ?>
                                   $txtstatus=$_POST['txtstatus'];
                                   $nama_file   = $_FILES['txtgambar']['name'];
                                   $lokasi_file = $_FILES['txtgambar']['tmp_name'];
-                                $simpan = mysqli_query($konek,"INSERT INTO tbl_blog (kategori,judul,konten,tgl_posting,user,status,gambar) VALUES ('$txtkategori','$txtjudul','$txtkonten','$txttanggal','$txtuser','$txtstatus','$nama_file')");
+                                $simpan = mysqli_query($konek,"INSERT INTO pengumuman (kategori,judul,konten,tgl_posting,user,status,gambar) VALUES ('$txtkategori','$txtjudul','$txtkonten','$txttanggal','$txtuser','$txtstatus','$nama_file')");
                                 if(!empty($lokasi_file)){
                           move_uploaded_file($lokasi_file, "../img/blog/$nama_file");
                           echo "Data Berhasil di simpan";

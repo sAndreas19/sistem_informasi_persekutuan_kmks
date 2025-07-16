@@ -131,7 +131,7 @@
 								<ul>
 									<li class="d-flex flex-row align-items-center justify-content-start" style="margin: 1px;">
 										<div>Minggu</div>
-										<div class="ml-auto">09:00 s/d Selesai</div>
+										<div class="ml-auto">19:30 s/d Selesai</div>
 									</li>
 								</ul>
 							</div>

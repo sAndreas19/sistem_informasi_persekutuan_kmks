@@ -26,7 +26,7 @@ include'header.php'; ?>
                   <div class="form-group row has-success">
                       <label class="col-sm-2 form-control-label">Link Renungan</label>
                       <div class="col-sm-10">
-                        <textarea type="text" name="txtalamat" class="form-control is-valid" value="-" placeholder="Alamat Link Renungan" rows="5"></textarea>
+                        <textarea type="text" name="txtrenungan" class="form-control is-valid" value="-" placeholder="Isi Renungan" rows="5"></textarea>
                       </div>
                 </div>
 
@@ -41,8 +41,8 @@ include'header.php'; ?>
 
                   if (isset($_POST["btnsimpan"])){
                                   $txtnama=$_POST['txtnama'];
-                                  $txtalamat=$_POST['txtalamat'];
-                                $simpan = mysqli_query($konek,"INSERT INTO renungan (nama,alamat) VALUES ('$txtnama','$txtalamat')");
+                                  $txtrenungan=$_POST['txtrenungan'];
+                                $simpan = mysqli_query($konek,"INSERT INTO renungan (nama,renungan) VALUES ('$txtnama','$txtrenungan')");
                                    if(!empty($simpan)){
                             ?>
                             <script type="text/javascript">

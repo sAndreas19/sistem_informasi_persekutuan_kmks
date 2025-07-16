@@ -13,7 +13,7 @@ $data  = mysqli_fetch_array($sqlku);
       </section>
           <ul class="breadcrumb">
             <li class="breadcrumb-item"><a href="master.php">Home</a></li>
-            <li class="breadcrumb-item active">Master <li class="breadcrumb-item active">Edit  Kegiatan</li> </li>
+            <li class="breadcrumb-item active">Master <li class="breadcrumb-item active">Edit  Jadwal</li> </li>
           </ul>
 
        <section class="statistics">
@@ -34,7 +34,7 @@ $data  = mysqli_fetch_array($sqlku);
                       </div>
                 </div>
                   <div class="form-group row has-success">
-                      <label class="col-sm-2 form-control-label">DESKRIPSI KEGIATAN</label>
+                      <label class="col-sm-2 form-control-label">DESKRIPSI JADWAL</label>
                       <div class="col-sm-10">
                        <textarea class="form-control" id="alamat" placeholder="Konten" name="txtkonten" required><?php echo $data['konten'];?></textarea>
                       </div>

@@ -40,7 +40,7 @@
 
 
 						  <?php
-            $qry = mysqli_query($konek,"SELECT * FROM tbl_blog where id order by tgl_posting desc limit 100");
+            $qry = mysqli_query($konek,"SELECT * FROM pengumuman where id order by tgl_posting desc limit 100");
             while ($data=mysqli_fetch_assoc($qry)) {
           ?>
 
@@ -89,7 +89,7 @@
 							</div>
 							<ul>
 								<?php
-						           $qry = mysqli_query($konek,"SELECT * FROM tbl_blog where id order by tgl_posting desc limit 100");
+						           $qry = mysqli_query($konek,"SELECT * FROM pengumuman where id order by tgl_posting desc limit 100");
 						           while ($data=mysqli_fetch_assoc($qry)) {
 						          ?>
 								<li><a href="news_persekutuan.php?id=<?php echo base64_encode($data['id']); ?>"><?php echo $data['judul']; ?></a></li>

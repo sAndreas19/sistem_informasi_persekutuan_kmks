@@ -83,7 +83,7 @@ pagination li.active {
 						<tr>
 							<td> <?php echo $no; ?></td>
 							<td> <?php echo $data['nama']; ?></td>
-							<td> <?php echo $data['alamat']; ?></td>
+							<td> <?php echo $data['renungan']; ?></td>
 							<td> <a href="renungan_edit.php?id=<?php echo base64_encode($data['id']); ?>">EDIT</a></td>
 							<td> <a href="renungan_hapus.php?id=<?php echo $data['id']; ?> ">DELETE</a></td>
 						</tr>

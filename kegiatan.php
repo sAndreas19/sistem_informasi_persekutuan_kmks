@@ -36,7 +36,6 @@ img:hover { transform: scale(1.5); }
 			<div class="row">
 				<div class="col">
 					<div class="features_container d-flex flex-row flex-wrap align-items-start justify-content-between">
-						
 											 <?php
 				            $qry = mysqli_query($konek,"SELECT * FROM kegiatan where id order by id limit 200");
 				            while ($data=mysqli_fetch_assoc($qry)) {

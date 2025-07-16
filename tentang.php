@@ -131,10 +131,15 @@
 								</div>
 							</div>
 							<div class="accordion_container">
-								<div class="accordion d-flex flex-row align-items-center"><div>SEJARAH KMKS</div></div>
+								<div class="accordion d-flex flex-row align-items-center"><div>Kepengurusan diKMKS</div></div>
 								<div class="accordion_panel">
 									<div>
-										<p>NULL</p>
+										<p>Panitia Paskah</p>
+										<p>Panitia Retreat</p>
+										<p>Panitia Hari Ulang Tahun</p>
+										<p>Tim Regenerasi</p>
+										<p>Tim Pemerhati</p>
+										<p>Tim Doa</p>
 									</div>
 								</div>
 							</div>
@@ -144,6 +149,37 @@
 								<div class="accordion_panel">
 									<div>
 										<p> Bapak Paulus Tarigan - Pembina</p>
+										<hr>
+										<p> Badan Pengurus Harian</p>
+										<p> Rani Manalu - Koordinator Umum</p>
+										<p> Friska Rani Bukit - Wakil Koordinator</p>
+										<p> Grecia Lumbantobing - Bendahara</p>
+										<hr>
+										<p> Komisi Penginjilan</p>
+										<p> Anita Simanjuntak - Koordinator Komisi Penginjilan</p>
+										<p> Christopher Pakpahan - Anggota Komisi Penginjilan</p>
+										<hr>
+										<p> Komisi Kelompok Kecil</p>
+										<p> Maya Butar-Butar - Komisi Kelompok Kecil</p>
+										<p> Martin Hutasoit - Anggota Komisi Kelompok Kecil</p>
+										<p> Erna Silaban - Anggota Komisi Kelompok Kecil</p>
+										<hr>
+										<p> Komisi Doa</p>
+										<p> Hasan Lumbantoruan - Koordinator Komisi Doa</p>
+										<p> Yusi Sembiring - Anggota Komisi Doa</p>
+										<hr>
+										<p> Komisi Kebaktian</p>
+										<p> Edar Zebua - Koordinator Komisi Kebaktian</p>
+										<p> Elisa Ginting - Anggota Komisi Kebaktian</p>
+										<hr>
+										<p> Komisi Peralatan</p>
+										<p> Jeremia Simanjuntak - Koordinator Komisi Peralatan</p>
+										<p> Panca Gultom - Anggota Komisi Peralatan</p>
+										<hr>
+										<p> Komisi Hubungan Masyarakat</p>
+										<p> Nora Manurung - Koordinator Komisi Hubungan Masyarakat</p>
+										<p> Zeges Sinaga - Anggota Komisi Hubungan Masyarakat</p>
+										
 									</div>
 								</div>
 							</div>

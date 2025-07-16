@@ -28,9 +28,9 @@ $data  = mysqli_fetch_array($sqlku);
                       </div>
                 </div>
                  <div class="form-group row has-success">
-                      <label class="col-sm-2 form-control-label">Alamat Renungan</label>
+                      <label class="col-sm-2 form-control-label">Isi Renungan</label>
                       <div class="col-sm-10">
-                        <textarea type="text" name="txtalamat" class="form-control is-valid" placeholder="Kategori Berita" rows="5"><?php echo $data['alamat'] ?></textarea>
+                        <textarea type="text" name="txtrenungan" class="form-control is-valid" placeholder="Kategori Berita" rows="5"><?php echo $data['renungan'] ?></textarea>
                       </div>
                 </div>
 
@@ -45,8 +45,8 @@ $data  = mysqli_fetch_array($sqlku);
             <?php
                  if (isset($_POST["btnedit"])){
                                   $txtnama=$_POST['txtnama'];
-                                  $txtalamat=$_POST['txtalamat'];
-                  $edit = mysqli_query($konek,"UPDATE  renungan SET nama='$txtnama',alamat='$txtalamat' WHERE id='$id'");
+                                  $txtrenungan=$_POST['txtrenungan'];
+                  $edit = mysqli_query($konek,"UPDATE  renungan SET nama='$txtnama',renungan='$txtrenungan' WHERE id='$id'");
                   if ($edit){
                     if(!empty($edit)){
                     ?>
