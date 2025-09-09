@@ -6,12 +6,12 @@ The KMKS Information System is a responsive web-based platform. KMKS (Kebaktian 
 This project provides a centralized solution by integrating all essential information into a single platform that is easier to access, manage, and maintain.
 
 ## Features
-📅 Worship Schedules – centralized and always accessible
-🤝 Fellowship Activities – organized event management
-🗓 Event Calendar – structured and easy-to-navigate schedule
-📖 Devotionals – accessible at any time
-🔐 User Authentication – secure login system
-🛠 Admin Dashboard – manage content and updates efficiently
+📅 Worship Schedules – centralized and always accessible  
+🤝 Fellowship Activities – organized event management  
+🗓 Event Calendar – structured and easy-to-navigate schedule  
+📖 Devotionals – accessible at any time  
+🔐 User Authentication – secure login system  
+🛠 Admin Dashboard – manage content and updates efficiently  
 
 ## Tech Stack
 Frontend: HTML, CSS, Bootstrap
@@ -19,21 +19,21 @@ Backend: PHP
 Database: MySQL
 
 ## Installation
-1. Clone this repository into your htdocs folder (inside XAMPP):
--> git clone https://github.com/your-username/kmks-information-system.git
-2. Start Apache and MySQL from your XAMPP Control Panel.
-3. Import the database:
--> Open http://localhost/phpmyadmin
--> Create a new database named db_kmks.
--> Import the provided SQL file (db_kmks.sql) located in the project folder.
-4. Access the project:
--> Open your browser and go to http://localhost/kmks-information-system
+1. Clone this repository into your htdocs folder (inside XAMPP):  
+-> git clone https://github.com/your-username/kmks-information-system.git  
+2. Start Apache and MySQL from your XAMPP Control Panel.  
+3. Import the database:  
+-> Open http://localhost/phpmyadmin  
+-> Create a new database named db_kmks.  
+-> Import the provided SQL file (db_kmks.sql) located in the project folder.  
+4. Access the project:  
+-> Open your browser and go to http://localhost/kmks-information-system  
 
 ## Usage Guide
-User Access
--> Users can view worship schedules, activities, event calendars, and devotionals directly from the main page.
+User Access  
+-> Users can view worship schedules, activities, event calendars, and devotionals directly from the main page.  
 
 Admin Access
--> Login with the provided admin credentials.
--> Use the Admin Dashboard to manage worship schedules, events, and devotional content.
+-> Login with the provided admin credentials.  
+-> Use the Admin Dashboard to manage worship schedules, events, and devotional content.  
 -> All changes will be reflected in real time on the user-facing page.
